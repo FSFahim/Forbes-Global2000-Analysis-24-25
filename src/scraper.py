@@ -66,8 +66,8 @@ def main():
     # Convert the list of dictionaries into a DataFrame
     df = pd.DataFrame(data=company_data, columns=columns)
 
-    # Save the DataFrame to CSV in the current working directory
-    df.to_csv("Forbes_Global_2000_(2025).csv", index=False)
+    # Save the DataFrame to CSV 
+    df.to_csv(r"datasets/Forbes_Global_2000_(2025).csv", index=False)
 
 if __name__ == "__main__":
     main()
