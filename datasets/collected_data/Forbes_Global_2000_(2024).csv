@@ -46,9 +46,9 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 45,Johnson & Johnson,89.7,17.5,172.0,372.2,Drugs & Biotechnology,1886,New Brunswick- New Jersey,United States,Joaquin Duato,130000
 46,Taiwan Semiconductor,71.5,27.3,180.9,672.0,Semiconductors- Electronics- Electrical Engineering,1987,Hsinchu,Taiwan,Che Chia Wei,73090
 47,BP,202.8,9.2,275.4,104.4,Construction- Chemicals- Raw Materials,1909,London,United Kingdom,Murray Auchincloss,67600
-48,LVMH MoÎt Hennessy Louis Vuitton,93.1,16.4,158.7,423.9,Clothing- Shoes- Sports Equipment,1987,Paris,France,Bernard Arnault,213000
+48,LVMH MoÔøΩt Hennessy Louis Vuitton,93.1,16.4,158.7,423.9,Clothing- Shoes- Sports Equipment,1987,Paris,France,Bernard Arnault,213000
 49,Reliance Industries,108.8,8.4,210.5,233.1,Oil & Gas Operations,1973,Mumbai,India,Mukesh Dhirubhai Ambani,389415
-50,NestlÈ,103.5,12.5,150.4,272.1,Food- Soft Beverages- Alcohol & Tobacco,1866,Vevey,Switzerland,Ulf Mark Schneider,270000
+50,NestlÔøΩ,103.5,12.5,150.4,272.1,Food- Soft Beverages- Alcohol & Tobacco,1866,Vevey,Switzerland,Ulf Mark Schneider,270000
 51,AXA Group,109.4,7.6,684.0,81.6,Insurance,1946,Paris,France,Thomas Buberl,145000
 52,Mercedes-Benz Group,164.3,14.4,288.5,77.1,Automotive (Automotive and Suppliers),1998,Stuttgart,Germany,Ola K?llenius,166000
 53,American Express,69.5,8.9,269.3,174.7,Banking and Financial Services,1850,New York- New York,United States,Stephen J. Squeri,26000
@@ -64,7 +64,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 63,Sumitomo Mitsui Financial,61.3,6.7,1950.8,80.9,Banking and Financial Services,2002,Tokyo,Japan,Akihiro Fukutome,124000
 64,CVS Health,361.3,7.3,249.7,72.4,Healthcare & Social Services,1963,Woonsocket- Rhode Island,United States,Karen S. Lynch,300000
 65,HDFC Bank,49.3,7.7,483.2,133.6,Banking and Financial Services,1994,Mumbai,India,Sashidhar Jagdishan,173222
-66,BBVA-Banco Bilbao Vizcaya,75.2,9.0,865.8,63.5,Banking,1857,Bilbao,Spain,Onur GenÁ,121486
+66,BBVA-Banco Bilbao Vizcaya,75.2,9.0,865.8,63.5,Banking,1857,Bilbao,Spain,Onur GenÔøΩ,121486
 67,Sony,90.0,6.7,225.4,101.9,Conglomerate,1946,Tokyo,Japan,Kenichiro Yoshida,110000
 68,Siemens,84.4,8.0,156.3,148.2,Engineering- Manufacturing,1847,Munich,Germany,Roland Emil Busch,320000
 69,Commonwealth Bank,39.0,6.5,870.7,135.4,Banking and Financial Services,1911,Sydney,Australia,Matthew Comyn,52000
@@ -170,7 +170,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 169,Hitachi,67.3,4.1,80.8,86.1,Conglomerate,1910,Tokyo,Japan,Keiji Kojima,268655
 170,Accenture,64.6,7.0,51.3,190.9,Professional Services,1989,Dulin,Ireland,Julie Spellman Sweet,738000
 171,Lockheed Martin,69.6,6.8,55.0,111.9,Aerospace & Defense,1912,Bethesda- Maryland,United States,Jim Taiclet,113460
-172,L'OrÈal,44.5,6.7,57.3,260.3,Packaged Goods,1909,Clichy,France,Nicolas Hieronimus,88000
+172,L'OrÔøΩal,44.5,6.7,57.3,260.3,Packaged Goods,1909,Clichy,France,Nicolas Hieronimus,88000
 173,Nordea Bank,28.5,5.6,653.3,43.5,Banking,1974,Helsinki,Finland,Frank Vang-Jensen,29153
 174,Eli Lilly,35.9,6.1,63.9,731.8,Drugs & Biotechnology,1876,Indianapolis- Indiana,United States,David A. Ricks,45750
 175,KKR,22.7,4.1,339.8,92.9,Banking and Financial Services,1976,New York- New York,United States,Scott Nuttall Joseph Bae,4150
@@ -206,7 +206,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 205,Midea Group,53.2,4.8,68.9,65.7,Engineering- Manufacturing,1968,Guandong,China,Hong Bo Fang,166000
 206,Novo Nordisk,35.5,13.0,43.3,581.1,Banking and Financial Services,1923,Bagsv√¶rd,Denmark,Lars Fruergaard J√∏rgensen,55000
 207,Oil & Natural Gas,77.5,5.1,80.6,41.9,Oil & Gas Operations,1956,New Delhi,India,Arun Kumar Singh,26529
-208,AmÈrica MÛvil,46.8,3.4,96.3,61.4,Telecommunications Services- Cable Supplier,2000,Mexico City,Mexico,Daniel Hajj Aboumrad,176083
+208,AmÔøΩrica MÔøΩvil,46.8,3.4,96.3,61.4,Telecommunications Services- Cable Supplier,2000,Mexico City,Mexico,Daniel Hajj Aboumrad,176083
 209,BlackRock,19.1,5.9,124.0,120.7,Banking and Financial Services,1988,New York- New York,United States,Larry Fink,16000
 210,PDD Holdings,34.7,8.4,49.1,194.2,Business Services & Supplies,2015,Dublin,Ireland,Lei Chen,17403
 211,PICC,77.3,3.2,214.0,30.3,Insurance,1949,Beijing,China,Ting Ke Wang,175881
@@ -247,7 +247,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 246,Dai-ichi Life Insurance,66.1,2.2,446.3,23.1,Insurance,1902,Tokyo,Japan,Seiji Inagaki,62260
 247,Occidental Petroleum,27.4,4.3,74.3,56.2,Oil & Gas Operations,1920,Houston- Texas,United States,Vicki A. Hollub,12570
 248,China Minsheng Bank,43.9,4.5,1069.2,17.2,Banking,1996,Beijing,China,Yingxin Gao,63742
-249,SociÈtÈ GÈnÈrale,84.6,1.9,1716.7,20.9,Banking and Financial Services,1864,Paris,France,Slawomir Krupa,117000
+249,SociÔøΩtÔøΩ GÔøΩnÔøΩrale,84.6,1.9,1716.7,20.9,Banking and Financial Services,1864,Paris,France,Slawomir Krupa,117000
 250,KB Financial Group,36.8,3.0,543.9,22.6,Banking and Financial Services,2008,Seoul,South Korea,Jong-Hee Yang,17261
 251,Inditex,38.9,5.8,35.6,146.1,Retail and Wholesale,1985,A Coru√±a,Spain,Oscar Garc√≠a Maceiras,161281
 252,Al Rajhi Bank,14.0,4.3,222.9,85.5,Banking,1957,Riyadh,Saudi Arabia,Walid bin Abdullah Ali Al-Moqbel,20878
@@ -307,8 +307,8 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 306,Xiaomi,38.2,2.5,45.7,63.8,Semiconductors- Electronics- Electrical Engineering,2010,Beijing,China,Jun Lei,33627
 307,CK Hutchison,35.2,3.0,148.4,20.7,Retailing,2014,Hong Kong,Hong Kong,Tzar Kuoi Li,309000
 308,Bank Rakyat Indonesia (BRI),14.9,3.9,125.5,46.5,Banking,1895,Jakarta,Indonesia,Sunarso,80165
-309,KoÁ Holding,67.4,3.0,96.8,19.3,Conglomerate,1963,Istanbul,Turkey,Levent √áakiroglu,115000
-310,Merck KGaA Darmstadt Germany and its affiliates,22.6,3.0,53.5,79.1,Drugs & Biotechnology,1668,Darmstadt,Germany,BelÈn Garijo LÛpez,63000
+309,KoÔøΩ Holding,67.4,3.0,96.8,19.3,Conglomerate,1963,Istanbul,Turkey,Levent √áakiroglu,115000
+310,Merck KGaA Darmstadt Germany and its affiliates,22.6,3.0,53.5,79.1,Drugs & Biotechnology,1668,Darmstadt,Germany,BelÔøΩn Garijo LÔøΩpez,63000
 311,Commerzbank,25.7,2.6,596.1,19.9,Banking,1870,Frankfurt,Germany,Manfred Knof,42000
 312,Meituan,39.0,2.0,41.9,100.0,IT Software & Services,2010,Beijing,China,Xing Wang,114731
 313,Seven & I Holdings,80.1,1.6,70.8,33.9,Food Markets,2005,Tokyo,Japan,,170757
@@ -337,7 +337,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 336,Texas Instruments,16.8,5.9,34.9,177.6,Semiconductors- Electronics- Electrical Engineering,1930,Dallas- Texas,United States,Haviv Ilan,15000
 337,RWE Group,28.0,1.9,111.5,28.1,Utilities,1898,Essen,Germany,Markus Krebber,20135
 338,Constellation Energy,22.0,2.4,52.0,67.2,Utilities,1990,Baltimore- Maryland,United States,Joseph Dominguez,13833
-339,M¯ller-Maersk,49.2,1.7,81.6,26.3,Transportation and Logistics,1904,Copenhagen,Denmark,Vincent Clerc,104260
+339,MÔøΩller-Maersk,49.2,1.7,81.6,26.3,Transportation and Logistics,1904,Copenhagen,Denmark,Vincent Clerc,104260
 340,Renault,56.6,2.4,134.7,15.9,Automotive (Automotive and Suppliers),1898,Boulogne-Billancourt,France,Luca de Meo,105500
 341,Nissan Motor,87.7,3.0,131.2,12.9,Automotive (Automotive and Suppliers),1933,Yokohama,Japan,Luca de Meo,134111
 342,Panasonic,58.8,3.1,62.2,19.9,Engineering- Manufacturing,1918,Osaka,Japan,Yuki Kusumi,90000
@@ -444,7 +444,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 443,TC Energy,11.4,2.1,94.6,40.4,Construction- Chemicals- Raw Materials,1951,Calgary,Canada,Francois L. Poirier,3500
 444,Carrier Global,23.0,1.2,40.8,58.8,Engineering- Manufacturing,1915,Syracuse- New York,United States,David L. Gitlin,52000
 445,Aon,13.7,2.6,40.8,63.6,Banking and Financial Services,1982,Dublin,Ireland,Gregory C. Case,50000
-446,HermËs International,14.5,4.7,22.6,261.4,Retail and Wholesale,1837,Paris,France,Axel Dumas Henri-Louis Bauer,22037
+446,HermÔøΩs International,14.5,4.7,22.6,261.4,Retail and Wholesale,1837,Paris,France,Axel Dumas Henri-Louis Bauer,22037
 447,Mitsubishi Heavy Industries,32.2,1.5,41.3,29.6,Engineering- Manufacturing,1884,Tokyo,Japan,Seiji Izumisawa,77697
 448,Infineon Technologies,16.9,2.8,31.4,52.2,Semiconductors- Electronics- Electrical Engineering,1999,Neubiberg,Germany,Jochen Hanebeck,58600
 449,Heineken,32.8,1.3,61.9,23.4,Food- Soft Beverages- Alcohol & Tobacco,1864,Amsterdam,Netherlands,Jean-Fran√ßois M. L. van Boxmeer,89000
@@ -625,7 +625,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 624,QBE Insurance Group,21.7,1.4,34.9,17.6,Insurance,1886,Sydney,Australia,Andrew Horton,12000
 625,Riyad Bank,7.1,2.2,107.9,21.3,Banking,1957,Riyadh,Saudi Arabia,Nadir Sami Al-Koraya,7887
 626,Sinopharm Group,84.3,1.3,54.1,8.8,Drugs & Biotechnology,2003,Shanghai,China,Zhi Ming Li,115959
-627,TelefÛnica,44.2,-0.7122999999999999,112.7,25.0,Telecommunications Services- Cable Supplier,1924,Madrid,Spain,Jos√© Mar√≠a √Ålvarez-Pallete L√≥pez,103638
+627,TelefÔøΩnica,44.2,-0.7122999999999999,112.7,25.0,Telecommunications Services- Cable Supplier,1924,Madrid,Spain,Jos√© Mar√≠a √Ålvarez-Pallete L√≥pez,103638
 628,Telstra,15.1,1.3,31.1,28.4,Telecommunications Services- Cable Supplier,1975,Melbourne,Australia,Vicki Maree Brady,28889
 629,Cognizant,19.3,2.1,18.4,34.2,Professional Services,1994,Teaneck- New Jersey,United States,Ravi Kumar Singisetti,336300
 630,3M,32.7,-7.0,55.2,58.2,Packaged Goods,1902,Saint Paul- Minnesota,United States,Bill Brown,63000
@@ -775,7 +775,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 774,Grupo Inbursa,7.5,1.7,45.4,18.0,Banking,1985,Mexico City,Mexico,Javier Foncerrada Izquierdo,11441
 775,Biogen,9.3,1.2,26.6,33.6,Drugs & Biotechnology,1978,Cambridge- Massachusetts,United States,Christopher A. Viehbacher,7570
 776,Daqin Railway,11.0,1.6,29.1,17.3,Transportation,2004,Datong,China,Hong Chen Han,89607
-777,The EstÈe Lauder Companies,15.3,0.641,22.7,48.3,Construction- Chemicals- Raw Materials,1946,New York- New York,United States,Fabrizio Freda,60000
+777,The EstÔøΩe Lauder Companies,15.3,0.641,22.7,48.3,Construction- Chemicals- Raw Materials,1946,New York- New York,United States,Fabrizio Freda,60000
 778,Suncorp Group,11.8,0.7766000000000001,73.1,13.9,Insurance,1996,Brisbane,Australia,Steve Johnston,13000
 779,SSE,14.3,0.7088,31.9,25.3,Utilities,1989,Perth,United Kingdom,Paul Morton Alistair,12180
 780,Murata Manufacturing,11.3,1.3,20.1,34.8,Engineering- Manufacturing,1944,Kyoto,Japan,Tsuneo Murata,73164
@@ -848,7 +848,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 847,Tohoku Electric Power,19.5,1.6,35.6,4.1,Utilities,1951,Sendai,Japan,Makoto Kaiwa,24717
 848,Corning,12.4,0.614,27.6,30.3,Construction- Chemicals- Raw Materials,1851,Corning- New York,United States,Wendell P. Weeks,58000
 849,Credicorp,7.0,1.3,64.8,13.0,Banking,1995,Lima,Peru,Gianfranco Piero Ferrari de las Casas,37074
-850,Eletrobr·s,7.4,0.8894,52.8,18.6,Utilities,1962,Rio de Janeiro,Brazil,Ivan de Souza Monteiro,8328
+850,EletrobrÔøΩs,7.4,0.8894,52.8,18.6,Utilities,1962,Rio de Janeiro,Brazil,Ivan de Souza Monteiro,8328
 851,SK,99.6,-1.4,160.5,6.3,Diversified Financials,1962,Seoul,South Korea,Tae-Won Chey- Dong-Hyun Jang,4448
 852,Kuaishou Technology,16.0,0.8823,15.0,32.4,IT Software & Services,2014,Beijing,China,Yi Xiao Cheng,26418
 853,Mitsui OSK Lines,11.3,1.8,27.2,11.8,Transportation,1942,Tokyo,Japan,Takeshi Hashimoto,8571
@@ -954,7 +954,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 953,Kyushu Electric Power,14.8,1.2,37.8,5.0,Utilities,1951,Fukuoka,Japan,Kazuhiro Ikebe,5235
 954,Kone,11.9,1.0,9.0,28.4,Engineering- Manufacturing,1910,Helsinki,Finland,Philippe Delorme,60000
 955,Semiconductor Manufacturing International,6.3,0.903,47.8,17.2,Semiconductors,2000,Shanghai,China,Mong Song Liang- Hai Jun Zhao,17681
-956,Ita˙sa,1.5,2.7,21.7,20.7,Diversified Financials,1966,S?o Paulo,Brazil,97000,
+956,ItaÔøΩsa,1.5,2.7,21.7,20.7,Diversified Financials,1966,S?o Paulo,Brazil,97000,
 957,Halkbank,15.8,0.6576000000000001,78.0,3.9,Banking,1933,Istanbul,Turkey,Osman Arslan,22219
 958,MOL Hungarian Oil,25.3,1.3,22.1,5.5,Construction- Chemicals- Raw Materials,1991,Budapest,Hungary,Zsolt Hern√°di,25000
 959,China Reinsurance Group,14.4,0.793,61.3,3.4,Insurance,1996,Beijing,China,Chunlei He,55459
@@ -1266,7 +1266,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 1265,Grupo Aval,11.3,0.1039,79.4,2.9,Banking,1994,Bogota,Colombia,Luis Carlos Sarmiento Guti√©rrez,80565
 1266,BAIC Motor,28.0,0.43660000000000004,23.8,2.4,Automotive (Automotive and Suppliers),1958,Beijing,China,Huang Wenbing,12000
 1267,Alstom,19.1,-0.335,35.9,7.6,Engineering- Manufacturing,1928,Saint-Ouen-sur-seine,France,Henri Poupart-Lafarge,70000
-1268,B‚loise Group,10.6,0.2666,92.0,7.5,Insurance,1864,Basel,Switzerland,Gert de Winter,8020
+1268,BÔøΩloise Group,10.6,0.2666,92.0,7.5,Insurance,1864,Basel,Switzerland,Gert de Winter,8020
 1269,Masco,7.9,0.918,5.3,15.5,Construction,1929,Livonia- Michigan,United States,Keith J. Allman,18000
 1270,Gartner,6.0,0.7972,7.7,35.0,Professional Services,1979,Stamford- Connecticut,United States,Eugene A. Hall,20000
 1271,Keysight Technologies,5.3,0.969,9.1,27.5,Semiconductors- Electronics- Electrical Engineering,2014,Santa Rosa- California,United States,Satish C. Dhanasekaran,15000
@@ -1331,7 +1331,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 1330,First Solar,3.6,1.0,10.8,21.1,Semiconductors,1999,Tempe- Arizona,United States,Mark R. Widmar,6700
 1331,Evonik Industries,16.3,-0.386,22.1,10.2,Construction- Chemicals- Raw Materials,2007,Essen,Germany,Christian Kullmann,33000
 1332,Terumo,6.4,0.7356,12.1,26.0,Health Care Equipment & Services,1921,Tokyo,Japan,Hikaru Samejima,28294
-1333,Robinhood Markets,2.1,0.127,46.1,17.7,IT Software & Services,2013, California,United States,Vladimir Tenev,2200
+1333,Robinhood Markets,2.1,0.127,46.1,17.7,IT Software & Services,2013," California",United States,Vladimir Tenev,2200
 1334,BJ's Wholesale Club,20.0,0.5237,6.7,10.6,Superstores,1984,Westborough- Massachusetts,United States,Robert W. Eddy,34000
 1335,Borouge,5.7,1.1,9.2,20.0,Chemicals,1998,Abu Dhabi,United Arab Emirates,Hazeem Sultan Al-Suwaidi,3100
 1336,Bank of Suzhou,3.3,0.6638,89.7,4.0,Banking,2010,Suzhou,China,Qiang Wang,5944
@@ -1789,7 +1789,7 @@ Rank,Name,Sales,Profit,Assets,Market Value,Industry,Founded,Headquarters,Country
 1788,Pinterest,3.2,0.1482,3.7,29.0,IT Software & Services,2008,San Francisco- California,United States,William J. Ready,4014
 1789,Rollins,3.2,0.44110000000000005,2.7,22.3,Business Services & Supplies,1948,Atlanta- Georgia,United States,Jerry E. Gahlhoff,19031
 1790,Goneo GroupClass A,2.2,0.5666,2.9,15.5,Capital Goods,1995,Cixi,China,,13746
-1791,S¸dzucker,11.1,0.602,11.4,3.1,Food- Drink & Tobacco,1926,Mannheim,Germany,Niels Heinrich Parksen,19204
+1791,SÔøΩdzucker,11.1,0.602,11.4,3.1,Food- Drink & Tobacco,1926,Mannheim,Germany,Niels Heinrich Parksen,19204
 1792,Adris grupa d.d. Pref.,8.3,0.44580000000000003,23.6,1.0,Insurance,1872,,Croatia,Marko Remenar,7278
 1793,Mobileye Global,1.9,-0.166,15.3,23.0,Automotive,1999,Jerusalem,Israel,Amnon Shashua,3700
 1794,E-L Financial,3.0,0.8715,19.3,2.8,Insurance,1968,Toronto,Canada,Duncan N. R.,13

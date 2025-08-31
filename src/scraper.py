@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 # Columns for the final DataFrame
-columns = ["Rank", "Name", "Sales", "Profit", "Assets", "Market Value", "Industry", "Country", "Year"]
+columns = ["Rank", "Name", "Sales", "Profit", "Assets", "Market Value", "Industry", "Country", "Employees"]
 
 #Convert a monetary string into a float in billions
 def clean_value(val):
@@ -16,15 +16,16 @@ def clean_value(val):
 # Function to map scraped company details into a structured dictionary
 def get_company_details(company_details):
     contents = {}
-    contents[columns[0]] = company_details[0]  
+    contents[columns[0]] = int(company_details[0])
     contents[columns[1]] = company_details[1]  
     contents[columns[2]] = clean_value(company_details[4])
     contents[columns[3]] = clean_value(company_details[5])
     contents[columns[4]] = clean_value(company_details[6])
     contents[columns[5]] = clean_value(company_details[7])
     contents[columns[6]] = company_details[3] 
-    contents[columns[7]] = company_details[2]  
-    contents[columns[8]] = "2025"
+    contents[columns[7]] = company_details[2]
+    contents[columns[8]] = int(company_details[8]) if company_details[8] is not None else None
+
 
     return contents
 
@@ -42,6 +43,7 @@ def main():
     ranking = driver.find_element(By.ID, 'table')
     ranking_tables = ranking.find_elements(By.CLASS_NAME, 'table')  # All tables on current page
 
+    company_details = []
     table_counter = 0  # Counter to track how many tables we've processed
     rank = 0           # Global rank counter
 
@@ -50,14 +52,18 @@ def main():
         rows = table.find_elements(By.CLASS_NAME, 'table-row')
         for row in rows:
             rank += 1  # Increment global rank
-            company_details = row.text.split('\n')
+            company_info = row.text.split('\n')
 
             # Replace the first element with global rank to avoid rank redundancy
-            company_details[0] = str(rank)
+            company_info[0] = str(rank)
 
             # Remove "PROFILE SPOTLIGHT" if present, so name is always at index 1
-            if len(company_details) > 1 and company_details[1] == "PROFILE SPOTLIGHT":
-                del company_details[1]
+            if company_info[1] == "PROFILE SPOTLIGHT":
+                del company_info[1]
+
+            formatted_name = company_info[1].lower().replace(" ", "-")
+            company_url = f"https://www.forbes.com/companies/{formatted_name}/?list=global2000"
+            company_details.append((company_info, company_url))
 
             # Add structured company data to the list
             company_data.append(get_company_details(company_details))
@@ -69,9 +75,18 @@ def main():
             buttons = driver.find_elements(By.CLASS_NAME, 'TVxEFOXb')
             nextButton = buttons[1] 
             nextButton.click()
+    
+    driver.close()
 
-    # Close the WebDriver
-    driver.quit()
+    for company_info, company_url in company_details:
+        driver = webdriver.Chrome()
+        driver.get(company_url)
+        more_information = driver.find_element(By.CLASS_NAME, 'listuser-block').text.split('\n')
+        # Check if index 11 exists, otherwise assign None
+        value = more_information[11] if len(more_information) > 11 else None
+        company_info.append(value)
+        company_data.append(get_company_details(company_info))
+        driver.close()
 
     # Convert the list of dictionaries into a DataFrame
     df = pd.DataFrame(data=company_data, columns=columns)
