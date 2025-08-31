@@ -18,6 +18,17 @@ df = df.iloc[:-1]
 # Drop the unnecessary columns
 df = df.drop(['Founded', 'Headquarters', 'CEO', 'Employees'], axis = 1)
 
+#Add a year field
+df["Year"] = "2024"
+
+# Convert Sales & Profit to numeric first 
+# df["Sales"] = pd.to_numeric(df["Sales"])
+# df["Profit"] = pd.to_numeric(df["Profit"])
+
+# Profit Margin (%) = (Profit / Sales) * 100
+df["Profit Margin"] = (df["Profit"] / df["Sales"]) * 100
+df["Profit Margin"] = df["Profit Margin"].round(2)
+
 # Save the DataFrame to CSV 
 df.to_csv(r"datasets/preprocessed_data/Forbes_Global_2000_(2024)_Preprocessed.csv", index=False)
 

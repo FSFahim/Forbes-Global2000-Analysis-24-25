@@ -3,19 +3,29 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 # Columns for the final DataFrame
-columns = ["Rank", "Name", "Sales", "Profit", "Assets", "Market Value", "Industry", "Country"]
+columns = ["Rank", "Name", "Sales", "Profit", "Assets", "Market Value", "Industry", "Country", "Year"]
+
+#Convert a monetary string into a float in billions
+def clean_value(val):
+    val = val.replace("$", "").replace(",", "").strip()
+    if val.endswith("B"):
+        return float(val.replace("B", "").strip())
+    elif val.endswith("M"):
+        return round(float(val.replace("M", "").strip()) / 1000,2)  # convert millions → billions
 
 # Function to map scraped company details into a structured dictionary
 def get_company_details(company_details):
     contents = {}
-    contents[columns[0]] = company_details[0]  # Rank
-    contents[columns[1]] = company_details[1]  # Name
-    contents[columns[2]] = company_details[4].replace("$", "").replace(" B", "")  # Sales
-    contents[columns[3]] = company_details[5].replace("$", "").replace(" B", "")  # Profit
-    contents[columns[4]] = company_details[6].replace("$", "").replace(" B", "")  # Assets
-    contents[columns[5]] = company_details[7].replace("$", "").replace(" B", "")  # Market Value
-    contents[columns[6]] = company_details[3]  # Industry
-    contents[columns[7]] = company_details[2]  # Country
+    contents[columns[0]] = company_details[0]  
+    contents[columns[1]] = company_details[1]  
+    contents[columns[2]] = clean_value(company_details[4])
+    contents[columns[3]] = clean_value(company_details[5])
+    contents[columns[4]] = clean_value(company_details[6])
+    contents[columns[5]] = clean_value(company_details[7])
+    contents[columns[6]] = company_details[3] 
+    contents[columns[7]] = company_details[2]  
+    contents[columns[8]] = "2025"
+
     return contents
 
 def main():
@@ -66,8 +76,12 @@ def main():
     # Convert the list of dictionaries into a DataFrame
     df = pd.DataFrame(data=company_data, columns=columns)
 
+    # Profit Margin (%) = (Profit / Sales) * 100
+    df["Profit Margin"] = (df["Profit"] / df["Sales"]) * 100
+    df["Profit Margin"] = df["Profit Margin"].round(2)
+
     # Save the DataFrame to CSV 
-    df.to_csv(r"datasets/Forbes_Global_2000_(2025).csv", index=False)
+    df.to_csv(r"datasets/scraped_data/Forbes_Global_2000_(2025).csv", index=False)
 
 if __name__ == "__main__":
     main()
