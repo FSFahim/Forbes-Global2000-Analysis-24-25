@@ -1,0 +1,3 @@
+Forbes'2025 Global 2000 List : https://www.forbes.com/lists/global2000/ (Website to scrape)
+
+Forbes'2024 Global 2000 Dataset Link : https://www.kaggle.com/datasets/mohammadgharaei77/largest-2000-global-companies
